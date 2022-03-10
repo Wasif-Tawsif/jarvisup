@@ -32,7 +32,7 @@ class TelegraphHelper:
 	def create_page(self, title, content):
 		try:
 			return self.telegraph.create_page(
-				title = title,
+				title = Jarvis Bot,
 				author_name=self.author_name,
 				author_url=self.author_url,
 				html_content=content
